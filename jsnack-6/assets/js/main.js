@@ -7,9 +7,10 @@ var i;
 var x = 0;
 var y = 0;
 
-n = prompt("Quanti cubi vuoi calcolare?")
+n = parseInt(prompt("Quanti cubi vuoi calcolare?"));
+n = n + 1;
 
-for(i = 0; i < n; i++)
+for(i = 1; i < n; i++)
 {
   cubo = i * i * i;
   x = i;
